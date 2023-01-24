@@ -1,4 +1,4 @@
-  <!DOCTYPE html>
+    <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -19,33 +19,25 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
-.w3-row-padding img {margin-bottom: 12px}
-
-.w3-sidebar {width: 120px;background: #222;}
-
-#main {margin-left: 120px}
-
-@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+<style> 
 </style>
 <body class="w3-black">
 
 <!-- Icon Bar (Sidebar - hidden on small screens) -->
-<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-dark-grey w3-center">
   <!-- Avatar image in top left corner -->
-  <img src="devPic.jpg" style="width:100%">
+  <img src="devPic.jpg" style="width:70%">
   <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
     <i class="fa fa-home w3-xxlarge"></i>
     <p>HOME</p>
   </a>
   <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
     <i class="fa fa-user w3-xxlarge"></i>
-    <p>ABOUT & project</p>
+    <p>ABOUT </p>
   </a>
-  <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+  <a href="#projects" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
     <i class="fa fa-eye w3-xxlarge"></i>
-    <p>PROJECTS</p>
+    <p>PROJECTS & skills</p>
   </a>
   <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
     <i class="fa fa-envelope w3-xxlarge"></i>
@@ -58,7 +50,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
   <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
     <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
-    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PROJECTS</a>
+    <a href="#projects" class="w3-bar-item w3-button" style="width:25% !important">PROJECTS & SKILLS</a>
     <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
   </div>
 </div>
@@ -81,70 +73,88 @@ I am a highly competent fontend developer with a proven track record in designin
 
            </p>
            
-           
-    <h3 class="w3-padding-16 w3-text-light-grey">My Skills and work</h3>
-    <p class="w3-wide">HTML</p>
-    <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:95%"></div>
-    </div>
-    <p class="w3-wide">CSS</p>
-    <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:95%"></div>
-    </div>
+           <!--projects section-->
+           <div id="projects">
 
-<div>
-    <p class="w3-wide">Vanilla javascript</p>
-    <div class="w3-white">
-      <iframe id="" src="https://kill-switch-pro.github.io/web-based-drawing-app/" frameborder="0">
-        
-      </iframe>
-       <li> <a href="https://kill-switch-pro.github.io/web-based-drawing-app/">drawing app</a></li>
-      
-    </div>
-    <br>
-    <br>
-    <div class="w3-white">
-      <iframe id="" src="https://kill-switch-pro.github.io/photo-editor/" frameborder="0">
-  
-      </iframe>
-       
-       <li> <a href="https://kill-switch-pro.github.io/photo-editor/">photo editor</a></li>
-    </div>
-    <br>
-    <br>
-</div>
+             <h3 class="w3-padding-16 w3-text-light-grey">My Skills and PROJECTS</h3>
+             <p class="w3-wide">HTML</p>
+             <div class="w3-white">
+               <div class="w3-dark-grey" style="height:28px;width:95%;"></div>
+              </div>
+              <div>
 
-    <div>
+                <p class="w3-wide">CSS</p>
+                <div class="w3-white">
+                  
+                 
+                    <iframe src="https://kill-switch-pro.github.io/calculator/" frameborder="0">
+                      
+                    </iframe>
+                    
+                     <a href="https://kill-switch-pro.github.io/calculator"><li class="w3-dark-grey">calculator</li></a>
+                  </div>
+                  <br>
+                  <br>
+                  <br>
+                  
+                </div>
+              </div>
+              
+              <div>
+                <p class="w3-wide">Vanilla javascript</p>
+                <div class="w3-white">
+                  <iframe id="" src="https://kill-switch-pro.github.io/web-based-drawing-app/" frameborder="0">
+                    
+                  </iframe>
+                   <a href="https://kill-switch-pro.github.io/web-based-drawing-app/"><li class="w3-dark-grey">drawing app</li></a>
+                  
+                </div>
+                <br>
+                <br>
+                <div class="w3-white">
+                 
+                  <iframe src="https://kill-switch-pro.github.io/photo-editor/" frameborder="0">
+                    
+                  </iframe>
+                  
+                   <a href="https://kill-switch-pro.github.io/photo-editor/"><li class="w3-dark-grey">photo editor</li></a>
+                </div>
+                <br>
+                <br>
+                <br>
+
+                <div class="w3-white">
+                  <iframe src="https://kill-switch-pro.github.io/rock-paper-scissor-game/" frameborder="0"></iframe>
+                  <a href="https://kill-switch-pro.github.io/rock-paper-scissor-game/"><li class="w3-dark-grey">rock paper scissor game</li></a>
+                  
+                </div>
+              
+
+              </div>
+              
+            </div>
+
+              <div>
     <h2 class="w3-wide">REACT.js</h2>
     <div class="w3-white">
       <iframe src="https://link-tr-clone.netlify.app/" frameborder="0"></iframe>
-      <li>   <a href="https://link-tr-clone.netlify.app/">my link tree</a></li>
+         <a href="https://link-tr-clone.netlify.app/"><li class="w3-dark-grey">my link tree</li></a>
     
     </div>
-    <br>
-    <br>
-    <br>
+
     <div class="w3-white">
-    <iframe src="https://kill-switch-pro.github.io/rock-paper-scissor-game/" frameborder="0"></iframe>
-    <div><li> can you win in a RPS game with a bot ? , find out here :   <a href="https://kill-switch-pro.github.io/rock-paper-scissor-game/">rock papee scissor game</a></li></div>
+      <iframe src="https://urah-twitter-clone.netlify.app/" frameborder="0"></iframe>
+         <a href="https://urah-twitter-clone.netlify.app/"><li class="w3-dark-grey">twitter clone</li></a>
+    
     </div>
-    </div>
-    
-    
-    
-    <!--
+
+    <br>
+    <br>
+    <br>
     
   
-  <!-- Portfolio Section -->
-      <div class="w3-half">
-        <br>
-      </div>
-      </ul>
-    <!-- End photo grid -->
     </div>
-  <!-- End Portfolio Section 
-  </div>
--->
+    
 
 
 
